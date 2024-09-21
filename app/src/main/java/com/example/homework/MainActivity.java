@@ -37,10 +37,6 @@ public class MainActivity extends AppCompatActivity {
              int index = i;
             Button answerButton = new Button(this);
             answerButton.setText(answers[i]);
-            answerButton.setLayoutParams(new LinearLayout.LayoutParams(
-                    LinearLayout.LayoutParams.MATCH_PARENT,
-                    LinearLayout.LayoutParams.WRAP_CONTENT
-            ));
             answerButton.setPadding(16, 16, 16, 16);
 
             answerButton.setOnClickListener(new View.OnClickListener() {
